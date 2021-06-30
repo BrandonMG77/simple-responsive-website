@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 40vh;
+  height: 80vh;
+  background-color: blueviolet;
+}
+
+#container {
+  margin-top: 20vh;
+  position: fixed;
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  background-color: lawngreen;
+  overflow-y: scroll;
+}
+
+header {
+  width: 100%;
+  height: 20%;
+  position: fixed;
+  background-color: blue;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5vh;
+  margin-top: 5vh;
+  color: white;
+}
+
+/* No entendí muy bien cómo se adapta la altura del box. Supongo que al no establecerla, solo se adapta a su contenido*/
+.box {
+  margin-top: 10%;
+  width: 100%;
+  background-color: red;
+}
+
+.img {
+  margin-top: 2%;
+  float: left;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.subtitle {
+  margin-top: 2%;
+  background-color: khaki;
+  margin-right: 5%;
+  text-align: center;
+  font-size: 4vh;
+  float: right;
+  width: 40%;
+  height: 30%;
+}
+
+.content {
+  font-size: 2vh;
+  margin-top: 2%;
+  float: right;
+  width: 100%;
+  background-color: brown;
+}
